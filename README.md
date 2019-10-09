@@ -1,0 +1,2 @@
+# CustomPSSARules
+Custom PSScriptAnalyzerRules
