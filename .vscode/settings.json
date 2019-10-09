@@ -1,0 +1,8 @@
+{
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "powershell.scriptAnalysis.settingsPath": "CustomPSSARules\\PSScriptAnalyzer.psd1"
+}
