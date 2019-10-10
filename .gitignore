@@ -1,3 +1,4 @@
 *error.txt
-*DevFile.psm1
+TestFiles/
+TestFiles/*
 *RuleTemplate.psm1
