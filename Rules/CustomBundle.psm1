@@ -63,12 +63,12 @@ function Measure-MultipleValueFromPipeline {
         }
         catch {
             $PSCmdlet.ThrowTerminatingError($_)
-            #$_ | select * | Out-File D:\repos\CustomPSSARules\error.txt -Force
+            $_ | select * | Out-File D:\repos\CustomPSSARules\error.txt -Force
         }
     }
 }
 
-function Measure-ParameterNameCasing {
+function Measure-ParameterPascal {
 <#
 .SYNOPSIS
     Parameters should use PascalCase
@@ -104,6 +104,7 @@ function Measure-ParameterNameCasing {
         }
         catch {
             $PSCmdlet.ThrowTerminatingError($_)
+            $_ | select * | Out-File D:\repos\CustomPSSARules\error.txt -Force
         }
     }
 }
