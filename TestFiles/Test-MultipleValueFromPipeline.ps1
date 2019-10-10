@@ -1,11 +1,11 @@
 function Get-Something {
-    [cmdletbinding()]
+    [CmdletBinding()]
     param (
         [parameter(Mandatory=$false, ValueFromPipeline)]
-        [string]$Param1,
+        [string]$param1,
 
         [parameter(ValueFromPipeline=$true, ValueFromPipelineByPropertyName=$true)]
-        [string]$Param2,
+        [string]$param2,
 
         [parameter(ValueFromPipeline=$false, ValueFromPipelineByPropertyName)]
         [string]$Param3,
